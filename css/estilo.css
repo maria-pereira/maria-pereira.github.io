@@ -1,9 +1,5 @@
 #t2 {
-text-align: center;
-<<<<<<< HEAD
-font-size: '12px';
-=======
-font-size: 12px;
->>>>>>> master
-
+margin-left: auto;
+margin-right: auto;
+font-size: 20px;
 }
