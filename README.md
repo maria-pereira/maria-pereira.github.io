@@ -1,4 +1,4 @@
 # maria-pereira.github.io
-My personal homepage 
+My 3D generalist portfolio. 
 
 http://maria-pereira.github.io
