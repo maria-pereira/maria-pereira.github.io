@@ -97,6 +97,23 @@ nav li.active {
   border-bottom: 2px solid #3c3c39;
 }
 
+.navbar-right .social_net a{
+  color: #555;
+}
+
+.navbar-right .social_net{
+  margin-right: 15px;
+}
+
+.social_net a:hover, .social_net a:focus {
+  color: #b3b08f;
+}
+
+.in .social_net {
+	text-align: center;
+  margin-top: 0;
+}
+
 .toolbar {
   margin-top: 3em;
   background-color: #fff;
@@ -221,6 +238,8 @@ ul.softwares {
 .contacts a {
   color: #333;
 }
+
+
 
 
 /* Extra Small Devices, Phones */
