@@ -38,7 +38,6 @@ body.home {
 }
 
 .inicio h1 {
-  font-size: 80px;
   font-weight: 400;
 }
 
@@ -68,9 +67,7 @@ div#name {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-div.social_net {
-  margin-top: 8%;
-}
+
 
 .social_net a:hover, .social_net a:focus {
   color: #b3b08f;
@@ -81,6 +78,9 @@ i {
   margin: 2px;
 }
 
+.thumb_inicio a:hover{
+  opacity: 0.7;
+}
 
 /*---------------------- 3D GENERALIST ----------------------*/
 
@@ -103,6 +103,7 @@ nav li.active {
 
 .navbar-right .social_net{
   margin-right: 15px;
+  margin-top: 10px;
 }
 
 .social_net a:hover, .social_net a:focus {
@@ -298,6 +299,10 @@ margin-top: 20px;
   /* Small Devices, Tablets */
   @media (min-width: 768px) and (max-width: 991px) {
 
+    .inicio{
+      overflow:scroll;
+    }
+
     .portfolio {
       margin: 1rem 0;
       -webkit-column-count: 3;
@@ -322,6 +327,10 @@ margin-top: 20px;
   }
   /* Medium Devices, Desktops */
   @media (min-width: 992px) and (max-width: 1199px) {
+    .inicio{
+      overflow:scroll;
+    }
+
     .contacts{
     margin-top: 20px;
     }
