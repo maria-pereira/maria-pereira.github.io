@@ -67,6 +67,16 @@
 
   <div class="portfolio">
     <div class="tile scale-anm">
+      <a role="button" data-toggle="modal" data-target="#modal_book">
+      <img src="images/d_book1_m.png" class="img-responsive" alt="image">
+      </a>
+    </div>
+    <div class="tile scale-anm">
+      <a role="button" data-toggle="modal" data-target="#modal_ucip">
+      <img src="images/d_mockup.png" class="img-responsive" alt="image">
+      </a>
+    </div>
+    <div class="tile scale-anm">
       <a role="button" data-toggle="modal" data-target="#modal_cb">
            <img src="images/d_cb_t.png" class="img-responsive" alt="image">
          </a>
@@ -79,11 +89,6 @@
     <div class="tile scale-anm">
       <a role="button" data-toggle="modal" data-target="#modal_wm">
       <img src="images/d_wm_t.png" class="img-responsive" alt="image">
-      </a>
-    </div>
-    <div class="tile scale-anm">
-      <a role="button" data-toggle="modal" data-target="#modal_ucip">
-      <img src="images/d_mockup_t.png" class="img-responsive" alt="image">
       </a>
     </div>
     <div class="tile scale-anm">
@@ -118,6 +123,60 @@
 
 
 
+
+
+  <!-- Modal book -->
+  <div class="modal fade" id="modal_book" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Contest - Book Design</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-5">
+              <p>In order to participate in a contest for Penguin Random House UK, the brief was to design a book cover in which I chose 'In Cold Blood' by Truman Capote.</p>
+<p>I created different designs while trying to be different from everything created before. There's the mockups but also the full covers exactly how they had to be submited to the contest.</p>
+              <p><b>Software:</b> Adobe Illustrator, Adobe Photoshop</p>
+            </div>
+            <div class="col-md-7 ">
+              <img src="images/d_book1_m.png" class="img-responsive">
+              <figcaption>#1</figcaption>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/d_book2_m.png" class="img-responsive">
+              <figcaption>#2</figcaption>
+              </div>
+            <div class="col-md-6">
+              <img src="images/d_book3_m.png" class="img-responsive">
+              <figcaption>#3</figcaption>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <img src="images/d_book1.png" class="centrar img-responsive">
+              <figcaption>Full Cover #1</figcaption>
+              </div></div>
+              <div class="row">
+            <div class="col-md-12">
+              <img src="images/d_book2.jpg" class="centrar img-responsive">
+              <figcaption>Full Cover #2</figcaption>
+            </div></div>
+            <div class="row">
+            <div class="col-md-12">
+              <img src="images/d_book3.jpg" class="centrar img-responsive">
+              <figcaption>Full Cover #3</figcaption>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- Modal CB -->
@@ -366,21 +425,7 @@
 
 
 
-  <script type="text/javascript">
-    $(function() {
-      var selectedClass = "";
-      $(".fil-cat").click(function() {
-        selectedClass = $(this).attr("data-rel");
-        $("#portfolio").fadeTo(100, 0.1);
-        $("#portfolio div").not("." + selectedClass).fadeOut().removeClass('scale-anm');
-        setTimeout(function() {
-          $("." + selectedClass).fadeIn().addClass('scale-anm');
-          $("#portfolio").fadeTo(300, 1);
-        }, 300);
 
-      });
-    });
-  </script>
 
   <script src="js/bootstrap.min.js"></script>
 </body>
