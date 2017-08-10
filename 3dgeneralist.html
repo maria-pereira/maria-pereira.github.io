@@ -69,12 +69,17 @@
     <button class="btn fil-cat" data-rel="shading">Shading</button>
     <button class="btn fil-cat" data-rel="rigging">Rigging</button>
     <button class="btn fil-cat" data-rel="animation">Animation</button>
-    <!--  <button class="btn fil-cat" data-rel="archviz">ArchViz</button> -->
+    <button class="btn fil-cat" data-rel="archviz">ArchViz</button>
   </div>
   <div style="clear:both;"></div>
 
 
   <div class="portfolio p3d">
+    <div class="tile scale-anm archviz all">
+      <a role="button" data-toggle="modal" data-target="#modal_casa_ext1">
+           <img src="images/casa_exterior_t.png" class="img-responsive" alt="image">
+         </a>
+    </div>
     <div class="tile scale-anm modeling shading animation rigging all">
       <a role="button" data-toggle="modal" data-target="#modal_loop">
            <img src="images/loop1.png" class="img-responsive" alt="image">
@@ -140,7 +145,32 @@
 
 
 
-
+  <!-- Modal CASA EXT 1 -->
+  <div class="modal fade" id="modal_casa_ext1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Archviz - Exterior</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <p>One of my first renders of an exterior scene based on a photo of my own. I used Archimesh, a Blender addon to speed up the archviz pipeline.</p>
+              <p><b>Software:</b> Blender</p>
+              <p><b>Renderer:</b> Cycles</p>
+            </div>
+            <div class="col-md-8 ">
+              <img src="images/casa_exterior.png" class="img-responsive">
+              <br>
+              <img src="images/casa_exterior1.png" class="img-responsive">
+              <figcaption>Scene with no shading</figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- Modal LOOP -->
