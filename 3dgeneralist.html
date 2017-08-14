@@ -76,6 +76,11 @@
 
   <div class="portfolio p3d">
     <div class="tile scale-anm archviz all">
+      <a role="button" data-toggle="modal" data-target="#modal_casa_int1">
+           <img src="images/casa_int1_t.png" class="img-responsive" alt="image">
+         </a>
+    </div>
+    <div class="tile scale-anm archviz all">
       <a role="button" data-toggle="modal" data-target="#modal_casa_ext1">
            <img src="images/casa_exterior_t.png" class="img-responsive" alt="image">
          </a>
@@ -96,13 +101,13 @@
          </a>
     </div>
     <div class="tile scale-anm modeling shading all">
-      <a role="button" data-toggle="modal" data-target="#modal_skel">
-      <img src="images/skel_t.png" class="img-responsive" alt="image">
+      <a role="button" data-toggle="modal" data-target="#modal_sphere">
+      <img src="images/sphere_t.png" class="img-responsive" alt="image">
       </a>
     </div>
     <div class="tile scale-anm modeling shading all">
-      <a role="button" data-toggle="modal" data-target="#modal_sphere">
-      <img src="images/sphere_t.png" class="img-responsive" alt="image">
+      <a role="button" data-toggle="modal" data-target="#modal_skel">
+      <img src="images/skel_t.png" class="img-responsive" alt="image">
       </a>
     </div>
     <div class="tile scale-anm shading all">
@@ -113,11 +118,6 @@
     <div class="tile scale-anm shading all">
       <a role="button" data-toggle="modal" data-target="#modal_glow">
       <img src="images/glow_t.png" class="img-responsive" alt="image">
-      </a>
-    </div>
-    <div class="tile scale-anm modeling shading all">
-      <a role="button" data-toggle="modal" data-target="#modal_airplane">
-      <img src="images/airplane.png" class="img-responsive" alt="image">
       </a>
     </div>
     <div class="tile scale-anm modeling shading animation rigging all">
@@ -135,6 +135,11 @@
       <img src="images/formiga.png" class="img-responsive" alt="image">
       </a>
     </div>
+    <div class="tile scale-anm modeling shading all">
+      <a role="button" data-toggle="modal" data-target="#modal_airplane">
+      <img src="images/airplane.png" class="img-responsive" alt="image">
+      </a>
+    </div>
     <div class="tile scale-anm shading rigging all">
       <a role="button" data-toggle="modal" data-target="#modal_bd">
       <img src="images/bd_t.png" class="img-responsive" alt="image">
@@ -147,7 +152,32 @@
 
 
 
-
+  <!-- Modal CASA INT 1 -->
+  <div class="modal fade" id="modal_casa_int1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Archviz - Interior</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <p>One of my first renders of a simple interior scene to try Corona Renderer. I used Archimesh, a Blender addon to speed up the archviz pipeline, and did all the modeling and texturing.</p>
+              <p><b>Software:</b> Blender, Adobe Photoshop</p>
+              <p><b>Renderer:</b> Corona</p>
+            </div>
+            <div class="col-md-8 ">
+              <img src="images/casa_int1.png" class="img-responsive">
+              <br>
+              <img src="images/casa_int1_2.png" class="img-responsive">
+              <figcaption>Scene with no shading</figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- Modal VASO -->
@@ -176,8 +206,8 @@
       </div>
     </div>
   </div>
-  
-  
+
+
   <!-- Modal CASA EXT 1 -->
   <div class="modal fade" id="modal_casa_ext1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
