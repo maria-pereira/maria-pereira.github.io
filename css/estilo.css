@@ -21,8 +21,8 @@ a {
 
 body.home {
   height: 100%;
-  background-image: url("../images/skel.png");
-  background-position: center 30%;
+  background-image: url("../images/main.png");
+  background-position: center 15%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -30,7 +30,7 @@ body.home {
 .inicio {
   width: 100% !important;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.85);
   position: fixed;
   text-align: center;
   padding-top: 3%;
